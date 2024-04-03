@@ -1,11 +1,134 @@
-<html>
-    <head>
-        <title>el titulo del post</title>
-        <link rel="stylesheet" href="css/estilos.css"
-    </head>
-    <body>
-        <h1>aqui vamos hacer un blogpost</h1>
-            <p>y este es el parrafo de inicio</p>
-        
-    </body>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ea2626;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #6608d2;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #021209;
+            margin-bottom: 10px;
+        }
+        h2 {
+            color: #333;
+            margin-top: 20px;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Estilos para las secciones */
+        #biografia {
+            background-color: #cc9124; /* Cambia este valor al color que desees */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        #habilidades {
+            background-color: #504a86; /* Cambia este valor al color que desees */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        #proyectos {
+            background-color: #f0f0f0; /* Cambia este valor al color que desees */
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        #contacto {
+            background-color: #ebebeb; /* Cambia este valor al color que desees */
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        /* Estilo para la imagen de la cabecera */
+        header img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            max-height: 150px; /* Ajusta este valor según sea necesario */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <img src="https://static.pexels.com/photos/194370/pexels-photo-194370.jpeg" alt="Logo">
+        <h1>Mi Nombre</h1>
+    </header>
+    
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sed erat eget sapien euismod efficitur. Nulla facilisi. Morbi vitae nisl ut lorem consequat tincidunt. Mauris aliquam mi non dapibus vulputate.</p>
+        <p>Vestibulum rhoncus ex id ligula commodo, at tempor tortor placerat. Proin nec felis eget lorem finibus dignissim sit amet id mauris. Integer semper bibendum elit, a pulvinar odio. Duis at odio vitae est pharetra tempus.</p>
+    </section>
+    
+    <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>React</li>
+            <li>Node.js</li>
+        </ul>
+    </section>
+    
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <ul>
+            <li>Proyecto 1 - Descripción del proyecto</li>
+            <li>Proyecto 2 - Descripción del proyecto</li>
+            <li>Proyecto 3 - Descripción del proyecto</li>
+        </ul>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de:</p>
+        <ul>
+            <li>Email: ejemplo@correo.com</li>
+            <li>Teléfono: 123-456-789</li>
+            <li>Redes sociales: <a href="https://twitter.com/ejemplo">Twitter</a>, <a href="https://linkedin.com/in/ejemplo">LinkedIn</a></li>
+        </ul>
+    </section>
+</div>
+
+</body>
 </html>
